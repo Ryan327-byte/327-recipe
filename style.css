@@ -1,0 +1,44 @@
+body {
+    background-color: #ffd9ff;
+}
+
+header {
+    border-bottom: solid 1px #98e1e7;
+    font-size: 100px;
+    padding-left: 25%;
+    color:rgb(0, 0, 0);
+}
+
+.inicio img {
+    margin-top: 50;
+    margin-left: 200;
+    height: 500;
+}
+
+h1 {
+    margin-left: 36%;
+}
+
+h4 {
+    font-size: 150%;
+    margin-top: 20;
+    margin-left: 40%;
+}
+
+.videos{
+    margin: 100;
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+
+}
+
+.secaovideos img {
+    opacity: 0.5;
+    height: 200;
+}
+
+.secaovideos img:hover {
+    opacity: 1.5;
+    border: 1px solid #c100fc;
+}
